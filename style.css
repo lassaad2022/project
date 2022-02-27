@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:wght@600&display=swap');
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);') ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -1px;
+}
+.container {
+    font-family: Saira Condensed;
+    font-size: 30px;
+    text-align: center;
+    text-decoration-color: rgb(0, 139, 252);
+    position: absolute;
+    top: 70px;
+    width: 70%;
+    margin-left: 60px;
+    font-size: 20px;
+    font-style:inherit;
+    color: rgb(224, 221, 67);S
+
+}
+
+ button{
+    color: rgb(44, 196, 216);
+border: 1px solid rgb(63, 184, 221);
+    background-color: turquoise;
+    background-size:cover;
+    font-style:oblique;
+      border-radius: 1px;
+       color: rgb(233, 221, 61); 
+       /* Dark grey */
+        padding: 6px 2px
+                height: 2px; 
+        line-height:2px
+        padding: 0 20px;
+        pointer-events: auto;
+        position: relative;
+        text-align: center;
+        user-select: none;
+        -webkit-user-select: none;
+        white-space: nowrap;
+        width: 15%;
+        z-index: 1;
+        text color: blue;
+        transition: all 0.3s ease;
+    
+      
+ }
+ button:hover {
+    background-color: rgb(66, 82, 172);
+    
+  }
+  
+  
+  
+  
+footer{
+    background-color: white;
+}
+
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(47, 58, 223, 0.952);
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #3254ee;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+ 
